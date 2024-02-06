@@ -18,13 +18,13 @@
 .about{
     background-color: orange;
     width: 850px;
-    height: 500px;
+    height: 350px;
 }
 
 .containera{
     border: 2px solid black;
     width: 850px;
-    height: 500px;
+    height: 350px;
     padding: 15px;
 }
 
@@ -61,6 +61,7 @@
 
 .acept{
     display: flex;
+    justify-content: space-evenly;
 }
 .acept h5{
     font-size: 10px;
@@ -129,11 +130,17 @@
         justify-content: center;
         text-align: center;
     }
+    .carousel-inner img{
+        height: 200px;
+        margin-top: 60px;
+    }
     .about{
         max-width: 100%;
+        height: 550px;
     }
     .containera{
         max-width: 100%;
+        height: 550px;
     }
     .containerb{
         width: 100%;
