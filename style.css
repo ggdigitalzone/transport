@@ -4,6 +4,29 @@
     box-sizing: border-box;
 }
 
+.nava{
+    background-color: black;
+    margin-top: 50px;
+}
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8px;
+    font-size: 18px;
+}
+.number a{
+    color: white;
+    text-decoration: none;
+}
+#v{
+    color: white;
+}
+.imgd{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
 .carousel-inner img{
     width: 100%;
     height: 500px;
@@ -16,7 +39,7 @@
 }
 
 .about{
-    background-color: orange;
+    background-color: rgb(255, 251, 0);
     width: 850px;
     height: 350px;
 }
@@ -132,7 +155,7 @@
     }
     .carousel-inner img{
         height: 200px;
-        margin-top: 60px;
+        margin-top: 10px;
     }
     .about{
         max-width: 100%;
@@ -166,6 +189,12 @@
         border-radius: 20px;
         padding: 7px;
         width: 300px;
+    }
+    .nava{
+        margin-top: 50px;
+    }
+    .number a{
+        padding: 10px;
     }
 }
 @media only screen and (max-width:480px){
@@ -205,5 +234,13 @@
     .acept h5{
         text-align: center;
         font-size: 15px;
+    }
+}
+@media only screen and (max-width:599px){
+    .discription p{
+        font-size: 9px;
+    }
+    .imgd img{
+        width: 150px;
     }
 }
